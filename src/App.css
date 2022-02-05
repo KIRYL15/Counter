@@ -1,38 +1,59 @@
 .App {
-  text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.Window {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://kartinkin.net/uploads/posts/2021-07/1625800731_21-kartinkin-com-p-tsifri-oboi-krasivie-22.jpg") ;
+    border-radius: 10px;
+    background-size: cover;
+    height: 700px;
+    width: 1380px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Table {
+    background-color: dimgrey;
+    border: 5px solid mediumturquoise;
+    width: 350px;
+    height: 300px;
+    border-radius:20px;
+    margin: 30px;
+    opacity: .8;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Number {
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    background-color: mediumturquoise;
+    border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.NumberRed {
+    padding: 20px;
+    font-size: 40px;
+    background-color: mediumturquoise;
+    border-radius: 10px;
+    margin: 10px;
+    color: crimson;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.ButtonBlock {
+    justify-content: center;
+    display: flex;
+    border: 5px solid cyan;
+    margin: 10px;
+    height: 100px;
+    border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ButtonStyle {
+    background-color: cyan;
+    border-radius: 10px;
+    width: 80px;
+    height: 50px;
+    margin: 20px;
 }

@@ -1,0 +1,83 @@
+.window{
+    display: flex;
+    flex-direction: row;
+    background-color: indigo;
+    width: 600px;
+    border-radius: 10px;
+
+}
+
+.table {
+    background-color: indigo;
+    border: 5px solid mediumturquoise;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 40px;
+}
+.number{
+    padding:20px;
+    font-size: 50px;
+    background-color: mediumturquoise;
+    border-radius: 10px;
+    margin: 10px;
+}
+.buttonBlock{
+     border: 5px solid cyan;
+     margin: 10px;
+     height: 150px;
+     border-radius: 10px;
+ }
+.resStyle{
+    color: darkblue;
+    background-color: cyan;
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    /*margin-left: 50px;*/
+    border-radius: 10px;
+}
+
+.incStyle{
+    font-size: 20px;
+    color: darkblue;
+    background-color: cyan;
+    width: 80px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.newNumberStyle{
+    padding:20px;
+    font-size: 50px;
+    background-color: mediumturquoise;
+    border-radius: 10px;
+    margin: 10px;
+    color: crimson;
+
+}
+.newIncStyle{
+    font-size: 20px;
+    color: darkblue;
+    background-color: cadetblue;
+    width: 80px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.newResStyle{
+    color: darkblue;
+    background-color: cadetblue;
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.buttonBlockForSet{
+    border: 5px solid cyan;
+    margin: 10px;
+    height: 150px;
+    border-radius: 10px;
+}
